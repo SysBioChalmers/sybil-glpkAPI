@@ -1,0 +1,16 @@
+# ignore pdf files
+*.pdf
+
+# ignore build r package:
+glpkAPI_*.tar.gz
+
+# ignore files made from build process
+config.log
+config.status
+..Rcheck
+*.o
+*.so
+src/Makevars
+src/config.h
+src/symbols.rds
+

@@ -4,6 +4,17 @@
 \title{glpkAPI News}
 \encoding{UTF-8}
 
+% ---------------------------------------------------------------------------- %
+\section{Changes in version 1.2.12 2015-01-05}{
+  \itemize{
+    \item added new vignette that describes the use of glpkAPI and GNU MathProg 
+    	language (GMPL). Thanks to Louis Luangkesorn
+    	\footnote{lugerpitt@gmail.com.  Thanks to Leo Lopes for his comments
+    	and suggestions.}.
+  }
+}
+
+
 
 % ---------------------------------------------------------------------------- %
 \section{Changes in version 1.2.11 2014-11-16}{
