@@ -8,9 +8,7 @@
 \section{Changes in version 1.3.0 2015-01-05}{
   \itemize{
     \item added new vignette that describes the use of glpkAPI and GNU MathProg 
-    	language (GMPL). Thanks to Louis Luangkesorn
-    	\footnote{lugerpitt@gmail.com.  Thanks to Leo Lopes for his comments
-    	and suggestions.}.
+    	language (GMPL). Thanks to Louis Luangkesorn.
     \item{changed package maintainer}
   }
 }

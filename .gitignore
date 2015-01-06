@@ -14,3 +14,5 @@ src/Makevars
 src/config.h
 src/symbols.rds
 
+# ignore files from build
+glpkAPI.Rcheck/
