@@ -39,7 +39,7 @@
 \author{
   Gabriel Gelius-Dietrich <geliudie@uni-duesseldorf.de>
 
-  Maintainer: Claus Jonathan Fritzemeier <clausjonathan.fritzemeier@uni-duesseldorf.de>
+  Maintainer: Mayo Roettger <mayo.roettger@hhu.de>
 }
 
 

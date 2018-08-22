@@ -27,9 +27,9 @@ There are basically three different ways of installing the glpkAPI package:
 
 2) Use of environment variables
 
-   PKG_CPPFLAGS                giving the PATH to the include directory of GLPK
-   PKG_LIBS                    giving the PATH to the directory containing the
-                               callable library and the libraries to link to.
+   PKG_CPPFLAGS                C preprocessor flags -I...
+
+   PKG_LIBS                    libraries -l... -L...
 
 3) Use --prefix
 

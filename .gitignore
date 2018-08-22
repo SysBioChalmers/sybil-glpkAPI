@@ -16,3 +16,7 @@ src/symbols.rds
 
 # ignore files from build
 glpkAPI.Rcheck/
+
+# ignore Mac OS X Finder databases:
+.DS_Store
+

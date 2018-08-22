@@ -5,6 +5,14 @@
 \encoding{UTF-8}
 
 % ---------------------------------------------------------------------------- %
+\section{Changes in version 1.3.1 2015-08-22}{
+  \itemize{
+    \item{changed package maintainer}
+  }
+}
+
+
+% ---------------------------------------------------------------------------- %
 \section{Changes in version 1.3.0 2015-01-05}{
   \itemize{
     \item added new vignette that describes the use of glpkAPI and GNU MathProg 
@@ -12,7 +20,6 @@
     \item{changed package maintainer}
   }
 }
-
 
 
 % ---------------------------------------------------------------------------- %
