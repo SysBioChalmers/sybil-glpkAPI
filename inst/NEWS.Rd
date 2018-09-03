@@ -5,7 +5,7 @@
 \encoding{UTF-8}
 
 % ---------------------------------------------------------------------------- %
-\section{Changes in version 1.3.1 2015-08-22}{
+\section{Changes in version 1.3.1 2018-08-22}{
   \itemize{
     \item{changed package maintainer}
   }
