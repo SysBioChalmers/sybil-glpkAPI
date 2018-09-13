@@ -158,7 +158,7 @@
     if (dupB) { \
         Rf_error("Duplicate indices 'ia[%i] = ia[%i] = %i' and 'ja[%i] = ja[%i] = %i' not allowed!", dupA+1, dupB+1, rm[dupA], dupA+1, dupB+1, rn[dupB]); \
     } \
-    UNPROTECT(1)
+    UNPROTECT(1); \
 } while (0)
 #else
 #define checkDupIndices(m, n, ne)
