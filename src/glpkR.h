@@ -145,7 +145,7 @@
     const int *rm = INTEGER(m); \
     const int *rn = INTEGER(n); \
     oind = R_Calloc(Rf_asInteger(ne), int); \
-    R_orderVector(oind, Rf_asInteger(ne), Rf_lang2(m, n), TRUE, FALSE); \
+    R_orderVector(oind, Rf_asInteger(ne), PROTECT(Rf_lang2(m, n)), TRUE, FALSE); \
     while (y < Rf_asInteger(ne)) { \
         if ( (rm[oind[y-1]] == rm[oind[y]]) && (rn[oind[y-1]] == rn[oind[y]]) ) { \
             dupA = oind[y-1]; \
@@ -158,6 +158,7 @@
     if (dupB) { \
         Rf_error("Duplicate indices 'ia[%i] = ia[%i] = %i' and 'ja[%i] = ja[%i] = %i' not allowed!", dupA+1, dupB+1, rm[dupA], dupA+1, dupB+1, rn[dupB]); \
     } \
+    UNPROTECT(1)
 } while (0)
 #else
 #define checkDupIndices(m, n, ne)
