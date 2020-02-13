@@ -5,6 +5,13 @@
 \encoding{UTF-8}
 
 % ---------------------------------------------------------------------------- %
+\section{Changes in version 1.3.2 2020-02-13}{
+  \itemize{
+    \item Quick fix for CRAN issue: 'config' variable 'CPP' is deprecated.
+  }
+}
+
+% ---------------------------------------------------------------------------- %
 \section{Changes in version 1.3.1 2018-09-13}{
   \itemize{
     \item{fixed a bug where an allocating function was called with an unprotected

@@ -1,4 +1,4 @@
-AC_INIT([glpkAPI], [1.2.12], [geliudie@uni-duesseldorf.de])
+AC_INIT([glpkAPI], [1.3.2], [mayo.roettger@hhu.de])
 
 
 dnl # --------------------------------------------------------------------
@@ -22,7 +22,6 @@ fi
 
 dnl # GNU R default settings
 CC=`"${R_HOME}/bin/R" CMD config CC`
-CPP=`"${R_HOME}/bin/R" CMD config CPP`
 CFLAGS=`"${R_HOME}/bin/R" CMD config CFLAGS`
 CPPFLAGS=`"${R_HOME}/bin/R" CMD config CPPFLAGS`
 AC_PROG_CC
