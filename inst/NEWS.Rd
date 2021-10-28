@@ -5,6 +5,13 @@
 \encoding{UTF-8}
 
 % ---------------------------------------------------------------------------- %
+\section{Changes in version 1.3.3 2021-10-28}{
+  \itemize{
+    \item Fix for CRAN issue concerning deprecated autoconf macros.
+  }
+}
+
+% ---------------------------------------------------------------------------- %
 \section{Changes in version 1.3.2 2020-02-13}{
   \itemize{
     \item Quick fix for CRAN issue: 'config' variable 'CPP' is deprecated.

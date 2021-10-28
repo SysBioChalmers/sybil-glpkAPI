@@ -1,4 +1,4 @@
-AC_INIT([glpkAPI], [1.3.2], [mayo.roettger@hhu.de])
+AC_INIT([glpkAPI],[1.3.3],[mayo.roettger@hhu.de])
 
 
 dnl # --------------------------------------------------------------------
@@ -55,29 +55,25 @@ dnl # get arguments
 dnl # --------------------------------------------------------------------
 
 AC_ARG_WITH(glpk-include,
-            AC_HELP_STRING([--with-glpk-include=PATH],
-                           [location of glpk include directory [[/usr/local/include]]]
-                          ),
+            AS_HELP_STRING([--with-glpk-include=PATH],[location of glpk include directory [[/usr/local/include]]
+                          ]),
             [GLPK_INCLUDE=$withval],
             [GLPK_INCLUDE=""])
 
 AC_ARG_WITH(glpk-lib,
-            AC_HELP_STRING([--with-glpk-lib=PATH],
-                           [location of GLPK callable library [[/usr/local/lib]]]
-                          ),
+            AS_HELP_STRING([--with-glpk-lib=PATH],[location of GLPK callable library [[/usr/local/lib]]
+                          ]),
             [GLPK_LIB=$withval],
             [GLPK_LIB=""])
 
 AC_ARG_ENABLE(gmp,
-              AC_HELP_STRING([--enable-gmp[=yes|no]],
-                             [link to GNU bignum library libgmp [[yes]]]
-                            ),
+              AS_HELP_STRING([--enable-gmp[=yes|no]],[link to GNU bignum library libgmp [[yes]]
+                            ]),
               [GMP=$enableval], [GMP="yes"])
 
 AC_ARG_ENABLE(chkargs,
-              AC_HELP_STRING([--enable-chkargs[=yes|no]],
-                             [check arguments to GLPK [[yes]]]
-                            ),
+              AS_HELP_STRING([--enable-chkargs[=yes|no]],[check arguments to GLPK [[yes]]
+                            ]),
               [CHKARGS=$enableval], [CHKARGS="yes"])
 
 
@@ -238,6 +234,7 @@ dnl # --------------------------------------------------------------------
 AC_SUBST(PKG_CFLAGS)
 AC_SUBST(PKG_LIBS)
 AC_SUBST(PKG_CPPFLAGS)
-AC_OUTPUT(src/Makevars)
+AC_CONFIG_FILES([src/Makevars])
+AC_OUTPUT
 
 exit 0
