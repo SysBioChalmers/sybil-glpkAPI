@@ -1,6 +1,6 @@
-# glpkAPI
+# sybil-glpkAPI
 
-R Interface to C API of GLPK, needs GLPK Version >= 4.42
+This R Interface to C API of GLPK provides GLPK support for [sybil](github.com/SysBioChalmers/sybil), and requires GLPK Version >= 4.42.
 
 If you're facing any problems, please open an [issue](issues/new) or a [discussion](/discusions/new).
 
