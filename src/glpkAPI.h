@@ -488,7 +488,7 @@ SEXP getCbind(SEXP lp, SEXP j);
 SEXP printRanges(SEXP lp, SEXP numrc, SEXP rowcol, SEXP fname);
 
 /* allocate translator workspace */
-SEXP mplAllocWksp(void);
+SEXP mplAllocWksp(SEXP ptrtype);
 
 /* free translator workspace */
 SEXP mplFreeWksp(SEXP wksp);
