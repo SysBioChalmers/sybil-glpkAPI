@@ -78,13 +78,13 @@ SEXP createIndex(SEXP lp);
 SEXP deleteIndex(SEXP lp);
 
 /* create parameter structure for simplex */
-SEXP setDefaultSmpParm();
+SEXP setDefaultSmpParm(void);
 
 /* create parameter structure for interior */
-SEXP setDefaultIptParm();
+SEXP setDefaultIptParm(void);
 
 /* create parameter structure for MIP */
-SEXP setDefaultMIPParm();
+SEXP setDefaultMIPParm(void);
 
 /* set simplex control parameters */
 SEXP setSimplexParm(SEXP npari, SEXP pari, SEXP vali,
@@ -98,13 +98,13 @@ SEXP setMIPParm(SEXP npari, SEXP pari, SEXP vali,
                 SEXP npard, SEXP pard, SEXP vald);
 
 /* get simplex control parameters */
-SEXP getSimplexParm();
+SEXP getSimplexParm(void);
 
 /* get interior control parameters */
-SEXP getInteriorParm();
+SEXP getInteriorParm(void);
 
 /* get MIP control parameters */
-SEXP getMIPParm();
+SEXP getMIPParm(void);
 
 /* set optimization direction */
 SEXP setObjDir(SEXP lp, SEXP dir);
@@ -457,7 +457,7 @@ SEXP readMIP(SEXP lp, SEXP fname);
 SEXP writeMIP(SEXP lp, SEXP fname);
 
 /* determine library version */
-SEXP version();
+SEXP version(void);
 
 /* check if the basis factorization exists */
 SEXP bfExists(SEXP lp);
@@ -488,7 +488,7 @@ SEXP getCbind(SEXP lp, SEXP j);
 SEXP printRanges(SEXP lp, SEXP numrc, SEXP rowcol, SEXP fname);
 
 /* allocate translator workspace */
-SEXP mplAllocWksp();
+SEXP mplAllocWksp(void);
 
 /* free translator workspace */
 SEXP mplFreeWksp(SEXP wksp);

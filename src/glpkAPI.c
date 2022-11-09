@@ -430,7 +430,7 @@ SEXP deleteIndex(SEXP lp) {
 
 /* -------------------------------------------------------------------------- */
 /* create parameter structure for simplex */
-SEXP setDefaultSmpParm() {
+SEXP setDefaultSmpParm(void) {
 
     SEXP parmext = R_NilValue;
 
@@ -443,7 +443,7 @@ SEXP setDefaultSmpParm() {
 
 /* -------------------------------------------------------------------------- */
 /* create parameter structure for interior */
-SEXP setDefaultIptParm() {
+SEXP setDefaultIptParm(void) {
 
     SEXP parmext = R_NilValue;
 
@@ -456,7 +456,7 @@ SEXP setDefaultIptParm() {
 
 /* -------------------------------------------------------------------------- */
 /* create parameter structure for MIP */
-SEXP setDefaultMIPParm() {
+SEXP setDefaultMIPParm(void) {
 
     SEXP parmext = R_NilValue;
 
@@ -719,7 +719,7 @@ SEXP setMIPParm(SEXP npari, SEXP pari, SEXP vali,
 
 /* -------------------------------------------------------------------------- */
 /* get simplex control parameters */
-SEXP getSimplexParm() {
+SEXP getSimplexParm(void) {
 
     SEXP listv   = R_NilValue;
     SEXP parmext = R_NilValue;
@@ -788,7 +788,7 @@ SEXP getSimplexParm() {
 
 /* -------------------------------------------------------------------------- */
 /* get interior control parameters */
-SEXP getInteriorParm() {
+SEXP getInteriorParm(void) {
 
     SEXP listv   = R_NilValue;
     SEXP parmext = R_NilValue;
@@ -822,7 +822,7 @@ SEXP getInteriorParm() {
 
 /* -------------------------------------------------------------------------- */
 /* get MIP control parameters */
-SEXP getMIPParm() {
+SEXP getMIPParm(void) {
 
     SEXP listv   = R_NilValue;
     SEXP parmext = R_NilValue;
@@ -3397,7 +3397,7 @@ SEXP writeMIP(SEXP lp, SEXP fname) {
 
 /* -------------------------------------------------------------------------- */
 /* determine library version */
-SEXP version() {
+SEXP version(void) {
 
     SEXP out = R_NilValue;
 
