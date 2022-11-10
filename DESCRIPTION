@@ -3,7 +3,7 @@ Type: Package
 Title: R Interface to C API of GLPK
 Version: 1.3.4
 Date: 2022-11-10
-Authors@R: c(person("Mihail", "Anton", role = "cre", email = "mihail.anton@chalmers.se",
+Authors@R: c(person("Mihail", "Anton", role = "ctb", email = "mihail.anton@chalmers.se"),
              person("Mayo", "Roettger", email = "mayo.roettger@hhu.de", role = "ctb"),
              person("Gabriel", "Gelius-Dietrich", role = "aut", email = "geliudie@uni-duesseldorf.de"),
              person("Louis", "Luangkesorn", email = "lugerpitt@gmail.com", role = "ctb" ))
