@@ -7,6 +7,7 @@
 % ---------------------------------------------------------------------------- %
 \section{Changes in version 1.3.4 2022-10-09}{
   \itemize{
+    \item Maintainer change.
     \item Fix for CRAN issue concerning function declarations without prototype.
     \item Repository moved to GitHub and will be discontinued and archived on GitLab. 
       New location: \url{https://github.com/SysBioChalmers/sybil-glpkapi}.
