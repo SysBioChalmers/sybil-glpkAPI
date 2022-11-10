@@ -10,7 +10,7 @@ Depends: R (>= 2.6.0)
 Imports: methods
 Description: R Interface to C API of GLPK, depends on GLPK Version >= 4.42.
 SystemRequirements: GLPK (>= 4.42)
-License: GPL-3
+License: GPL-3 | file LICENSE
 LazyLoad: yes
 Collate: generics.R glpk_ptrClass.R glpk.R glpkAPI.R zzz.R
 Packaged: 2022-11-09 13:37:00 UTC; mayo
